@@ -28,5 +28,5 @@ void main() {
   int sr2 = 0, sc2 = 0, color2 = 0;
 
   final result2 = sol.floodFill(image2, sr2, sc2, color2);
-  print(result2); // [[0, 0, 0], [0, 0, 0]]
+  print(result2); 
 }
