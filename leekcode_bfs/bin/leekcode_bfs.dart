@@ -1,5 +1,12 @@
 import 'package:leekcode_bfs/leekcode_bfs.dart' as leekcode_bfs;
 
-void main(List<String> arguments) {
-  print('Hello world: ${leekcode_bfs.calculate()}!');
+void main() {
+  //creates the root node for the binary tree
+  leekcode_bfs.TreeNode? root;
+
+  //create an instance of the solution class that peforms the BFS level-order traversal
+  final sol = leekcode_bfs.Solution();
+  print(sol.levelOrder(root)); 
 }
+
+
