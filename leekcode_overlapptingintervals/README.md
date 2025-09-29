@@ -1,1 +1,1 @@
-Find the Duplicate Number Example by Adam Abbadusky
+Insert Interval Example by Adam Abbadusky
